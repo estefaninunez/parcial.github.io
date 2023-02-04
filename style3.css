@@ -1,0 +1,15 @@
+.contenedor{
+    display: flex;
+     flex-wrap: wrap;  
+
+}
+
+.contenido{
+    width: 20%;
+ } 
+p{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    border: 1px silver solid;
+}

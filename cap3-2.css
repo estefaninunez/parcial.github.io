@@ -1,0 +1,15 @@
+#titulo { 
+    font: bold 26px Verdana, sans-serif; 
+   }
+   header { 
+    margin: 30px; 
+    padding: 15px; 
+    text-align: center; 
+    background-image: url("ladrillos.jpg");
+    border: 2px solid; 
+    border-radius: 20px / 10px;
+   }
+   body { 
+    perspective: 500px; 
+    perspective-origin: 50% 90%; 
+   } 

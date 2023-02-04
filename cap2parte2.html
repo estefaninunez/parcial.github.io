@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <section>
+        <form name="formulario" method="get" action="procesar.php">
+            <p>
+                <label>
+                    Nombre:<input type="text" name="nombre" maxlength="15">
+                </label>
+            </p>
+            <p><input type="image" src="botonenviar.png" width="100"></p>
+            <p><label><input type="checkbox" name="edad15" value="15" checked> 15 Años</label></p>
+                <p><label><input type="checkbox" name="edad30" value="30" > 30 Años</label></p>
+                <p><label><input type="checkbox" name="edad45" value="45"> 45 Años</label></p>
+                <p><label><input type="checkbox" name="edad60" value="60"> 60 Años</label></p>
+                <p><label>Texto: <textarea name="texto" cols="50" rows="6"></textarea></label></p> 
+            <p>
+                <label>Edad:<input type="range" name="edad" min="13" max="100" value="35"></label>
+            </p>
+            <p>
+                <label>Correo:<input type="email" name="correo"></label>
+            </p>
+            <p>
+                <label>Telefono:<input type="tel" name="telefono"></label>
+            </p>
+            <p>
+                <label>Sitio web:<input type="url" name="sitioweb"></label>
+                <input type="date" name="fecha" value="2017-02-05">
+            </p>
+            <p><input type="submit" value="Enviar"></p>
+            <datalist id="datos"> 
+                <option value="123123123" label="Teléfono 1"> 
+                <option value="456456456" label="Teléfono 2"> 
+                </datalist> 
+        </form>
+    </section>
+    
+</body>
+</html>

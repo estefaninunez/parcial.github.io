@@ -1,0 +1,150 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header{
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    color: white;
+}
+.contenedor .menu{
+   /* background-color: #2d4059;*/
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+.contenedor .logo{
+    background: #ea5455;
+    flex: 1 1 auto;
+
+}
+.contenedor .nav{
+    background: #ea5455;
+    flex: 5 1 auto;
+}
+.contenedor .social{
+    background: #ea5455;
+    flex:  1 1 auto;
+    display: flex;
+}
+
+.contenedor .principal{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+section{
+    display: flex;
+}
+.section .articulos{
+    background: #4e4e6a;
+    flex: 2 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.section .articulo{
+    background: #1f6cb0 ;
+    flex: 1 1 40%;
+}
+.section .navegacion{
+    background: #70a3c4;
+    flex: 1 1 100%;
+}
+.section .derecha{
+    background: #f73f52;
+    flex: 1 1 auto;
+}
+.section .publicidad{
+    background: #ffea85;
+}
+.footer .pie{
+    background: #ebaf2e;
+}
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.section {
+    display: flex;
+}
+
+@media screen and (max-width:800px) {
+    .section{
+        flex-direction: column;        
+    }
+    .contenedor .menu{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .contenedor .logo{
+        width: 100%;        
+    }
+    .contenedor .nav{
+        width: 100%;        
+    }
+    .contenedor .social{
+        width: 100%;
+    }
+    .aside{
+        display: flex;
+        justify-content: center;        
+    }
+    .aside .publicidad{
+        width: 50%;
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
+    .aside .publicidad{
+        width: auto;
+    }
+    
+}
+@media screen and (max-width:500px) {
+    .aside{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
+    .aside .publicidad{
+        width: auto;
+    }
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background: url("img3.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav a{
+    text-decoration: none;
+}
+.nav a:hover{
+    text-decoration: underline;
+}
+.contenedor h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3emem;
+    font-weight: 300;
+    font-weight: bold;
+    text-align: center;
+}

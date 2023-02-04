@@ -1,0 +1,26 @@
+body{
+    background: pink url(1.jpg);
+    color: blue;
+    width: 90%;
+    margin: 5px auto;
+    text-align: justify;
+
+}
+h3{
+    color: purple;
+}
+p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p.otro{
+    color: brown;
+    /*Tamaño de la letra*/
+    font-size: 1.5em;
+    padding: 5px 50px;
+    border: 1px red solid;
+    border-radius: 10px;
+}
+p.new{
+    color: midnightblue;
+}

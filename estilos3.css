@@ -1,0 +1,16 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+
+}
+.contenido{
+    width: 50%;    
+}
+p{
+    margin: 5px;
+    padding: 10px, 20px;
+    border:1px silver solid;
+}
+aside{
+    width: 33.3%;
+}
